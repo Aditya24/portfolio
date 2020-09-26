@@ -138,6 +138,22 @@ header {
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-weight: 700;
 }
+.f-developer {
+  animation: moveRightFade 1.2s ease-in;
+}
+@keyframes moveRightFade {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(10px); /*rotate(180deg)*/
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
 .subheading {
   font-size: 1.2rem;
   font-weight: 700;
@@ -217,6 +233,8 @@ header {
   background-color: #2c3e50;
   border: 2px solid #2c3e50;
   font-size: 1.2rem;
+  border-radius: 30px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
 }
 .btn-download:hover {
   color: #41d1e0;
@@ -314,49 +332,7 @@ header {
     line-height: 3.5rem;
     padding: 1.5rem;
   }
-  .animated {
-    -webkit-animation-duration: 2.5s;
-    animation-duration: 2.5s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-  }
 
-  @-webkit-keyframes bounce {
-    0%,
-    20%,
-    40%,
-    60%,
-    80%,
-    100% {
-      -webkit-transform: translateY(0);
-    }
-    50% {
-      -webkit-transform: translateY(-10px);
-    }
-  }
-
-  @keyframes bounce {
-    0%,
-    20%,
-    40%,
-    60%,
-    80%,
-    100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-
-  .bounce {
-    -webkit-animation-name: bounce;
-    animation-name: bounce;
-  }
   .subheading {
     font-size: 1.5rem;
     font-weight: 700;
