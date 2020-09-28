@@ -131,7 +131,10 @@ header {
   width: 20rem;
   border-radius: 50%;
   margin-top: 3em;
+  border: 8px solid #dadada;
+  cursor: pointer;
 }
+
 .heading {
   font-family: SB Heading, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
