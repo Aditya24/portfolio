@@ -133,6 +133,10 @@ header {
   margin-top: 3em;
   border: 8px solid #dadada;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.cover:hover {
+  transform: scale(0.9);
 }
 
 .heading {
