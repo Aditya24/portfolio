@@ -134,9 +134,12 @@ header {
   border: 8px solid #dadada;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  position: relative;
 }
 .cover:hover {
-  transform: scale(0.9);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /*transform: scale(0.9);*/
 }
 
 .heading {
