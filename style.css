@@ -275,7 +275,7 @@ header {
 }
 .project-info i {
   margin: 0 10px 0 10px;
-  font-size: 2em;
+  font-size: 2rem;
   color: #6c757d;
 }
 .project-info i:hover {
