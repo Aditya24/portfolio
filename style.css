@@ -4,9 +4,7 @@ html {
 body {
   margin: 0 auto;
   color: white;
-  font-family: SB Body, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -43,7 +41,7 @@ body {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: crimson;
+  background: #490102;
 }
 .navbar .max-width {
   display: flex;
@@ -55,6 +53,10 @@ body {
   font-size: 35px;
   font-weight: 600;
 }
+.navbar .logo a:hover {
+  text-decoration: none;
+  color: #1fa094;
+}
 .navbar .logo a span {
   color: crimson;
   transition: all 0.3s ease;
@@ -62,9 +64,13 @@ body {
 .navbar.sticky .logo a span {
   color: #fff;
 }
+
 .menu {
   margin-top: auto;
   margin-bottom: auto;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 .navbar .menu li {
   list-style: none;
@@ -74,12 +80,12 @@ body {
   display: block;
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: crimson;
+  color: #1ea093;
+  text-decoration: none;
 }
 .navbar.sticky .menu li a:hover {
   color: #fff;
@@ -96,7 +102,7 @@ body {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background: #1fa094;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -515,7 +521,7 @@ header {
     width: 100%;
     left: -100%;
     top: 0;
-    background: #111;
+    background: #490102;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
