@@ -499,9 +499,6 @@ header {
     margin: 5px;
   }
 
-  .cover {
-    width: 10rem;
-  }
   .grid-wrapper {
     display: grid;
     grid-template-columns: none;
