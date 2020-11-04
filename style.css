@@ -41,7 +41,7 @@ body {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #490102;
+  background: #01493cf0;
 }
 .navbar .max-width {
   display: flex;
@@ -58,11 +58,11 @@ body {
   color: #1fa094;
 }
 .navbar .logo a span {
-  color: crimson;
+  color: #7b0044;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-  color: crimson;
+  color: #7b0044;
 }
 
 .menu {
@@ -181,20 +181,6 @@ header {
 .divider-icon {
   font-size: 2rem;
 }
-.cover {
-  width: 20rem;
-  border-radius: 50%;
-  margin-top: 3em;
-  border: 8px solid #dadada;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  position: relative;
-}
-.cover:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  /*transform: scale(0.9);*/
-}
 
 .heading {
   font-family: SB Heading, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -233,9 +219,9 @@ header {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #6c757d;
+  background-color: white;
   border-radius: 1rem;
-  border-color: #6c757d;
+  border-color: white;
 }
 .projects {
   padding-top: 6rem;
@@ -287,11 +273,12 @@ header {
 /************ABOUT SECTION********************/
 
 .about {
-  background-color: #41d1e0;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  color: #2c3e50;
+  background-color: #26484c;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  color: white; /* #2c3e50;*/
   font-size: 1.2rem;
+  clip-path: polygon(0px 0px, 100% 150px, 100% 90%, 0px 100%);
 }
 /****About******/
 
@@ -309,16 +296,12 @@ header {
 .cover {
   width: 20rem;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   padding: 0.5rem;
-  transition: all 1250ms ease-out cubic-bezier(0.19, 1, 0.22, 1);
-
-  box-shadow: inset 0 0 20px rgba(20, 20, 20, 0.5),
-    0 0 20px rgba(20, 20, 20, 0.2);
+  transition: all 1250ms ease-out;
+  box-shadow: inset 0 0 20px rgb(0 119 97), 0 0 20px rgb(31 160 148);
   outline-color: rgba(20, 20, 20, 0);
 }
 .cover:hover {
-  border: 1px solid gainsboro;
   cursor: pointer;
   transition: border 1250ms ease;
   color: #1ea093;
@@ -357,7 +340,7 @@ header {
 }
 .intro-heading {
   text-transform: capitalize;
-  color: #1fa094;
+  color: #10ccba;
   font-weight: 700;
 }
 
@@ -369,7 +352,7 @@ header {
   width: 100%;
 }
 .divider-icon-2 {
-  color: #1fa094;
+  color: white;
   font-size: 2rem;
 }
 /******CONTACT SECTION**/
@@ -426,6 +409,14 @@ header {
 .social-icons {
   font-size: 3em;
 }
+.social-icons a {
+  color: #10ccba;
+  transition: all 0.3s ease-in-out;
+}
+.social-icons a:hover {
+  color: #427388;
+}
+
 .social-icons i {
   margin: 0.5em;
 }
@@ -480,6 +471,7 @@ header {
     font-size: 3rem;
     line-height: 2.5rem;
     text-transform: uppercase;
+    font-weight: 700;
   }
   /****Projects*****/
   .box > img {
@@ -519,7 +511,7 @@ header {
     width: 100%;
     left: -100%;
     top: 0;
-    background: #490102;
+    background: #213040;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
