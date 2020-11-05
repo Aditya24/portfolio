@@ -41,7 +41,7 @@ body {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #01493cf0;
+  background: #01493c;
 }
 .navbar .max-width {
   display: flex;
@@ -58,11 +58,11 @@ body {
   color: #1fa094;
 }
 .navbar .logo a span {
-  color: #7b0044;
+  color: #ef9a00;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-  color: #7b0044;
+  color: #ef9a00;
 }
 
 .menu {
@@ -84,11 +84,11 @@ body {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: #1ea093;
+  color: #ef9a00;
   text-decoration: none;
 }
 .navbar.sticky .menu li a:hover {
-  color: #1ea093;
+  color: #ef9a00;
 }
 
 /* menu btn styling */
@@ -219,9 +219,9 @@ header {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: white;
+  background-color: #6c757d;
   border-radius: 1rem;
-  border-color: white;
+  border-color: #6c757d;
 }
 .projects {
   padding-top: 6rem;
@@ -274,11 +274,11 @@ header {
 
 .about {
   background-color: #26484c;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   color: white; /* #2c3e50;*/
   font-size: 1.2rem;
-  clip-path: polygon(0px 0px, 100% 150px, 100% 90%, 0px 100%);
+  clip-path: polygon(0px 0px, 100% 250px, 100% 90%, 0px 100%);
 }
 /****About******/
 
