@@ -210,6 +210,7 @@ header {
   font-weight: 700;
   display: flex;
   justify-content: center;
+  color: #1fa094;
 }
 
 /************PROJECT SECTION********************/
@@ -289,8 +290,8 @@ header {
   padding-bottom: 15rem;
   color: white; /* #2c3e50;*/
   font-size: 1.2rem;
-  clip-path: polygon(0px 0px, 100% 250px, 100% 90%, 0px 100%);
-  -webkit-clip-path: polygon(0px 0px, 100% 250px, 100% 90%, 0px 100%);
+  clip-path: polygon(0px 0px, 100% 250px, 100% 88%, 0px 100%);
+  -webkit-clip-path: polygon(0px 0px, 100% 250px, 100% 88%, 0px 100%);
 }
 /****About******/
 
@@ -476,7 +477,7 @@ header {
   }
 
   .subheading {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
   }
   .page-section-heading {
@@ -492,10 +493,6 @@ header {
   }
 }
 @media screen and (max-width: 768px) {
-  .heading {
-    font-size: 2.2em;
-    margin-top: 1em;
-  }
   .line {
     width: 30px;
     height: 3px;
@@ -510,6 +507,13 @@ header {
 }
 
 @media (max-width: 947px) {
+  .heading {
+    font-size: 3.2em;
+    margin-top: 1em;
+  }
+  .subheading {
+    font-size: 2.2rem;
+  }
   .menu-btn {
     display: block;
     z-index: 999;
@@ -549,5 +553,14 @@ header {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+}
+@media (min-width: 1200px) {
+  .heading {
+    font-size: 6rem;
+  }
+
+  .subheading {
+    font-size: 3.5rem;
   }
 }
