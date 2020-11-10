@@ -138,14 +138,14 @@ header {
   object-fit: contain;
   color: white;*/
   height: 100vh;
-  background: url("./images/img-4.jpg");
+  background: url("./images/img-5.jpg");
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-  position: relative;
-  /* background-color: #e41010;*/
+  position: relative;*/
+  background-color: #2196f3;
   background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
@@ -210,7 +210,7 @@ header {
   font-weight: 700;
   display: flex;
   justify-content: center;
-  color: #1fa094;
+  color: #ef9a00;
 }
 
 /************PROJECT SECTION********************/
