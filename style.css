@@ -8,6 +8,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  background-color: bisque;
 }
 
 /* custom scroll bar */
@@ -277,7 +278,7 @@ header {
   color: #6c757d;
 }
 .project-info i:hover {
-  color: #41d1e0;
+  color: #1fa094;
 }
 .project-text {
   margin-bottom: 0.5rem;
