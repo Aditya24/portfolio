@@ -207,10 +207,10 @@ header {
 }
 .subheading {
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 800;
   display: flex;
   justify-content: center;
-  color: #ef9a00;
+  color: #1fa094;
 }
 
 /************PROJECT SECTION********************/
