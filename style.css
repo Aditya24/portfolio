@@ -41,7 +41,7 @@ body {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #01493c;
+  background: #209086;
 }
 .navbar .max-width {
   display: flex;
@@ -296,7 +296,6 @@ header {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  width: 40%;
 }
 .button:after {
   content: "";
@@ -330,11 +329,10 @@ header {
 /************ABOUT SECTION********************/
 
 .about {
-  background-color: bisque;
+  background-color: #1fa094;
   padding-top: 15rem;
   padding-bottom: 15rem;
-
-  color: #6c757d;
+  color: white; /*#2c3e50;*/
   font-size: 1.2rem;
   clip-path: polygon(0px 0px, 100% 250px, 100% 88%, 0px 100%);
   -webkit-clip-path: polygon(0px 0px, 100% 250px, 100% 88%, 0px 100%);
@@ -398,9 +396,20 @@ header {
   margin: 2rem 1rem 1rem 1rem;
 }
 .intro-heading {
-  text-transform: capitalize;
-  color: #10ccba;
+  text-transform: uppercase;
+  color: #dadada;
   font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.intro-heading::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 25%;
+  height: 6px;
+  background-color: #ffffff;
+  left: 38%;
+  margin-top: 8px;
 }
 
 .picture {
@@ -413,6 +422,10 @@ header {
 .divider-icon-2 {
   color: white;
   font-size: 2rem;
+}
+.cv {
+  display: flex;
+  justify-content: center;
 }
 /******CONTACT SECTION**/
 .contact {
