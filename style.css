@@ -8,7 +8,6 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  background-color: bisque;
 }
 
 /* custom scroll bar */
@@ -283,13 +282,59 @@ header {
 .project-text {
   margin-bottom: 0.5rem;
 }
+
+/*Project button*/
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 40%;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(31, 160, 148);
+  z-index: -2;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #427388;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.button:hover:before {
+  width: 100%;
+}
+
 /************ABOUT SECTION********************/
 
 .about {
-  background-color: #26484c;
+  background-color: bisque;
   padding-top: 15rem;
   padding-bottom: 15rem;
-  color: white; /* #2c3e50;*/
+
+  color: #6c757d;
   font-size: 1.2rem;
   clip-path: polygon(0px 0px, 100% 250px, 100% 88%, 0px 100%);
   -webkit-clip-path: polygon(0px 0px, 100% 250px, 100% 88%, 0px 100%);
