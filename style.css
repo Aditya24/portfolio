@@ -55,7 +55,6 @@ body {
 }
 .navbar .logo a:hover {
   text-decoration: none;
-  color: #1fa094;
 }
 .navbar .logo a span {
   color: #ef9a00;
@@ -527,6 +526,13 @@ header {
   .max-width {
     padding: 0 50px;
   }
+  .page-section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .intro {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 992px) {
   .heading {
@@ -569,6 +575,7 @@ header {
   .heading {
     font-size: 3.2em;
     margin-top: 1em;
+    text-align: center;
   }
   .subheading {
     font-size: 2.2rem;
