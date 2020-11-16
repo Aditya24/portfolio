@@ -354,16 +354,17 @@ header {
   border-radius: 50%;
   padding: 0.5rem;
   transition: all 1250ms ease-out;
-  box-shadow: inset 0 0 20px rgb(0 119 97), 0 0 20px rgb(31 160 148);
+  box-shadow: inset 0 0 20px rgb(32 144 134), 0 0 20px rgb(17 99 91);
   outline-color: rgba(20, 20, 20, 0);
 }
+
 .cover:hover {
   cursor: pointer;
   transition: border 1250ms ease;
   color: #1ea093;
 
-  box-shadow: inset 0 0 20px rgba(41, 216, 178, 0.9),
-    0 0 20px rgba(41, 216, 178, 0.9);
+  box-shadow: inset 0 0 20px #dadada, 0 0 20px rgb(31 160 148);
+
   outline-color: rgba(41, 216, 178, 0);
 
   outline-offset: 15px;
@@ -425,6 +426,9 @@ header {
 .cv {
   display: flex;
   justify-content: center;
+}
+.cv-button {
+  outline: solid 2px #dadada78;
 }
 /******CONTACT SECTION**/
 .contact {
