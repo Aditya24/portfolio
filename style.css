@@ -432,8 +432,8 @@ header {
 }
 /******CONTACT SECTION**/
 .contact {
-  padding-top: 6rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .contact-container {
   display: flex;
@@ -485,7 +485,7 @@ header {
   font-size: 3em;
 }
 .social-icons a {
-  color: #10ccba;
+  color: #1ea093;
   transition: all 0.3s ease-in-out;
 }
 .social-icons a:hover {
