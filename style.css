@@ -325,6 +325,62 @@ header {
   width: 100%;
 }
 
+/************Skills Section*******************/
+.skills {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #1fa094;
+  color: white;
+  font-size: 1.2rem;
+}
+.services .card .box {
+  transition: all 0.3s ease;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  width: calc(33% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  background: #213040;
+}
+.services .card i {
+  font-size: 4rem;
+  color: crimson;
+  transition: color 0.3s ease;
+}
+.card:hover .box {
+  transform: scale(1.05);
+}
+
+.card-text {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 10px;
+}
+.card-text::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40%;
+  height: 2px;
+  background-color: #ffffff;
+  left: 30%;
+  margin-top: 8px;
+}
+.box p {
+  margin-top: 2rem;
+}
 /************ABOUT SECTION********************/
 
 .about {
