@@ -41,7 +41,7 @@ body {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #209086;
+  background: rgb(33, 48, 64);
 }
 .navbar .max-width {
   display: flex;
@@ -57,11 +57,11 @@ body {
   text-decoration: none;
 }
 .navbar .logo a span {
-  color: #ef9a00;
+  color: #1fa094; /*#ef9a00;*/
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
-  color: #ef9a00;
+  color: #1fa094;
 }
 
 .menu {
@@ -83,11 +83,11 @@ body {
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-  color: #ef9a00;
+  color: #1fa094;
   text-decoration: none;
 }
 .navbar.sticky .menu li a:hover {
-  color: #ef9a00;
+  color: #1fa094;
 }
 
 /* menu btn styling */
