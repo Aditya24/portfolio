@@ -327,7 +327,7 @@ header {
 
 /************Skills Section*******************/
 .skills {
-  padding-top: 5rem;
+  padding-top: 6rem;
   padding-bottom: 5rem;
   background-color: #1fa094;
   color: white;
@@ -339,24 +339,24 @@ header {
 .services {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 }
 .card {
-  width: calc(33% - 20px);
-  background: #222;
+  /*width: calc(33% - 20px);*/
+  background: transparent;
   text-align: center;
   border-radius: 6px;
   padding: 20px 25px;
   cursor: pointer;
+  border: none;
   transition: all 0.3s ease;
 }
-.card:hover {
-  background: #213040;
+.card:hover i {
+  color: #213040 !important;
 }
 .services .card i {
   font-size: 4rem;
-  color: crimson;
+  color: #166961;
   transition: color 0.3s ease;
 }
 .card:hover .box {
@@ -372,10 +372,10 @@ header {
   content: "";
   position: absolute;
   display: block;
-  width: 40%;
-  height: 2px;
-  background-color: #ffffff;
-  left: 30%;
+  width: 25%;
+  height: 6px;
+  background-color: rgb(255, 255, 255);
+  left: 38%;
   margin-top: 8px;
 }
 .box p {
