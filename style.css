@@ -325,6 +325,97 @@ header {
   width: 100%;
 }
 
+/************Skills Section*******************/
+.skills {
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+  background-color: #1fa094;
+  color: white;
+  font-size: 1.2rem;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 88%, 0px 100%);
+  -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 88%, 0px 100%);
+}
+.services .card .box {
+  transition: all 0.3s ease;
+}
+.services {
+  padding-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  /*width: calc(33% - 20px);*/
+  background: transparent;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+.card:hover i {
+  color: #427388 !important;
+}
+.services .card i {
+  font-size: 4rem;
+  transition: color 0.3s ease;
+}
+.card:hover .box {
+  transform: scale(1.05);
+}
+
+.card-text {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 10px;
+}
+.card-text::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 25%;
+  height: 6px;
+  background-color: rgb(255, 255, 255);
+  left: 38%;
+  margin-top: 8px;
+}
+.box p {
+  margin-top: 2rem;
+}
+.knowledge {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+.keyskills {
+  margin-bottom: 0px;
+}
+.know-heading {
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+
+.skill-button-container {
+  margin-top: 2rem;
+}
+.skills-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  outline: solid 2px #2c3e5085;
+  margin: 5px;
+}
+.key {
+  color: #2c3e50;
+  font-weight: 600;
+}
 /************ABOUT SECTION********************/
 
 .about {
