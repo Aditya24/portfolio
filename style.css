@@ -119,7 +119,7 @@ body {
 }
 .scroll-up-btn.show {
   bottom: 30px;
-  opacity: 1;
+  opacity: 1.5;
   pointer-events: auto;
 }
 .scroll-up-btn:hover {
